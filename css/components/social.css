@@ -1,0 +1,23 @@
+.social{
+    display: flex;
+}
+.social__item{
+    display: flex;
+    align-items: center;
+}
+.social__link{
+    width: 20px;
+    height: 20px;
+    background-color: #d4d4d8;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+}
+.social__link:hover{
+    background-color: #ec1e79;
+}
+.social__link{
+    display: inline-flex;
+}

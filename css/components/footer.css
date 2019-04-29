@@ -8,3 +8,6 @@
     color: #fff;
     padding: 15px 0;
 }
+.footer__who-is, .footer__communication{
+    width: 300px;
+}
