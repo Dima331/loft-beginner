@@ -1,0 +1,33 @@
+.schedule{
+    background-color: #fff;
+    box-shadow: 0px 0px 10px 0px rgba(23, 59, 117, 0.55);
+    font-family: "GothaProBol";
+    font-weight: bold;
+    position: absolute;
+    text-align: left;
+    padding: 14px 10px;
+    right: 0;
+    top: 34px;
+    border-radius: 5px;
+    display: none;
+    flex-direction: column;
+    width: 182px;
+}
+.schedule::before{
+    content: "";
+    width: 0px;
+    height: 0px;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-bottom: 12px solid white;
+    position: absolute;
+    top: -11px;
+    right: 8px;
+}
+.schedule__item_time{
+    color: #ec1e79;
+}
+
+.schedule__item_lunch{
+    color: #221f1f;
+}

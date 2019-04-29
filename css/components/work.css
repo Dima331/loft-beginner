@@ -1,0 +1,15 @@
+.work{
+    position: relative;
+}
+.work__text{
+    font-size: 14px;
+    color: rgba(236, 30, 121, 0.702);
+    cursor: pointer;
+    text-decoration: underline;
+}
+.work__text:hover {
+    color: #769dcd;
+}
+.work:hover .schedule{
+    display: flex;
+}
