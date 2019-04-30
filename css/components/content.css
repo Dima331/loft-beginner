@@ -1,0 +1,9 @@
+.content{
+    margin-top: 40px;
+}
+.content__right{
+    width: 83%;
+}
+.content__left{
+    width: 15%;
+}

@@ -1,0 +1,67 @@
+.menu{
+    font-size: 12px;
+    font-weight: bold;
+    font-family: 'GothaProBol';
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.menu__item{
+    margin-bottom: 30px;
+}
+
+.menu__link{
+    text-decoration: none;
+    padding-left: 40px;
+    position: relative;
+    color: rgb(236, 30, 121);
+}
+
+.menu__link::before{
+    content: "";
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+    width: 20px;
+    height: 20px;
+    background-repeat: no-repeat;
+}
+
+.menu__link_main::before{
+    width: 17px;
+    height: 16px;
+    background-image: url("../../img/menu/t.png");
+}
+.menu__link_about::before{
+    background-image: url("../../img/menu/s.png");
+}
+.menu__link_tariff::before{
+    background-image: url("../../img/menu/w.png");
+}
+
+.menu__item_active .menu__link{
+    color: #262424;
+}
+.menu__item_active .menu__link_main::before{
+    background-image: url("../../img/menu/t-h.png");
+}
+.menu__item_active .menu__link_about::before{
+    background-image: url("../../img/menu/s-h.png");
+}
+.menu__item_active .menu__link_tariff::before{
+    background-image: url("../../img/menu/w-h.png");
+}
+
+.menu__item:hover .menu__link{
+    color: #262424;
+}
+.menu__item:hover .menu__link_main::before{
+    background-image: url("../../img/menu/t-h.png");
+}
+.menu__item:hover .menu__link_about::before{
+    background-image: url("../../img/menu/s-h.png");
+}
+.menu__item:hover .menu__link_tariff::before{
+    background-image: url("../../img/menu/w-h.png");
+}
