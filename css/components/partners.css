@@ -1,0 +1,32 @@
+.partners-list{
+    margin-top: 65px;
+    margin-bottom: 60px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.partners-list__item{
+    width: 33%;
+    margin-bottom: 45px;
+}
+.partners-list__link{
+    display: inline-block;
+    filter: grayscale(100%);
+    opacity: 0.8;
+}
+.partners-list__link:hover{
+    filter: grayscale(0%);
+    opacity: 1;
+}
+
+/*
+.partners-list__link::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: antiquewhite;
+}*/
+.partners-list__item_avan{
+    padding-left: 35px;
+}
