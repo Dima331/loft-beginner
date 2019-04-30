@@ -1,0 +1,28 @@
+.breadcrumbs{
+    display: flex;
+    font-size: 14px;
+    color: #f04b94;
+    font-style: italic;
+    margin-bottom: 30px;
+}
+.breadcrumbs__item{
+    padding-right: 3px;
+}
+.breadcrumbs__item::after{
+    content: "/";
+}
+.breadcrumbs__item:last-child::after{
+    content: "";
+}
+
+.breadcrumbs__link{
+    color: #f04b94;
+    text-decoration: underline;
+}
+.breadcrumbs__item:last-child .breadcrumbs__link{
+    text-decoration: none;
+    color: #221f1f;
+}
+.breadcrumbs__link:hover{
+    text-decoration: none;
+}

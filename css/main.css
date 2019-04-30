@@ -9,7 +9,15 @@
 @import url('components/work.css');
 
 @import url('components/content.css');
+
 @import url('components/menu.css');
+
+@import url('components/breadcrumbs.css');
+
+@import url('components/section-title.css');
+
+@import url('components/tariffs-list.css');
+
 
 @import url('components/footer.css');
 @import url('components/social.css');
