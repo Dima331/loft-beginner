@@ -19,6 +19,22 @@
 @import url('components/tariffs-list.css');
 @import url('components/partners.css');
 
+@import url('components/reviews-list.css');
+
+@import url('components/stock.css');
+
+@import url('components/page-list.css');
+@import url('components/transition.css');
+@import url('components/reviews.css');
+
+
+@import url('components/recall.css');
+@import url('components/plate.css');
+
+@import url('components/form.css');
+
+@import url('components/banner.css');
+@import url('components/features-list.css');
 
 @import url('components/footer.css');
 @import url('components/social.css');

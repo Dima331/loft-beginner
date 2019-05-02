@@ -1,0 +1,16 @@
+.stock{
+    background-color: #27273e;
+    background-image: url("../../img/pattern.png");
+    padding: 60px 0;
+    color: #fff;
+    font-size: 18px;
+}
+.stock__text{
+    width: 620px;
+    margin: 0 auto;
+}
+.stock__text_theme-color{
+    color: #f04b94;
+    font-weight: bold;
+    font-family: 'GothaProBol';
+}

@@ -1,0 +1,112 @@
+.form {
+    font-size: 14px;
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+}
+
+.form__info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.form__row {
+    margin-top: 25px;
+}
+
+.form__block-title {
+    margin-bottom: 10px;
+}
+
+.form__info .form__block {
+    width: 270px;
+}
+
+.form__block-input, .form__block-textarea {
+    padding: 15px 10px;
+    border: none;
+}
+
+.form__block-input, .form__block-textarea {
+    width: 100%;
+    border: 1px solid #fff;
+    border-radius: 3px;
+}
+
+input[type="text"]:focus, .form__block-textarea:focus {
+    outline: none;
+    border: 1px solid #ec1e79;
+    border-radius: 3px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.form__block-textarea {
+    resize: none;
+}
+
+input[type="button"]:focus {
+    outline: none;
+}
+
+.form__block-btn {
+    padding: 15px 20px;
+    font-size: 12px;
+    border: none;
+    cursor: pointer;
+    background-color: #27273e;
+    color: #fff;
+    font-weight: bold;
+    font-family: 'GothaProBol';
+    text-transform: uppercase;
+    border-radius: 5px;
+    letter-spacing: 0.8px;
+}
+
+.form__block-btn:hover {
+    background-color: #ec1e79;
+}
+.form__block-btn:focus{
+    background-color: #af1f60;
+}
+.form__photo-sub {
+    display: flex;
+    justify-content: space-between;
+}
+
+.visually-hidden, input[type="radio"] {
+    position: absolute;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    width: 1px;
+    margin: -1px;
+    padding: 0;
+    border: 0;
+}
+
+.radio__label {
+    padding-left: 25px;
+    position: relative;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.radio__label::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+    width: 19px;
+    height: 19px;
+    background-color: #fff;
+    border: 1px solid #cbcbcb;
+    border-radius: 50%;
+    box-shadow: 0px 0 0px 1px #fff;
+}
+
+input[type="radio"]:checked+label:before {
+    background-color: #ec1e79;
+    border: 5px solid #FFF;
+    box-shadow: 0px 0 0px 1px #ec1e79;
+}

@@ -1,0 +1,25 @@
+.page-list{
+    display: flex;
+    align-items: center;
+    font-family: 'GothaProBol';
+}
+
+.page-list__link{
+    padding: 0 5px;
+    width: 25px;
+    height: 25px;
+    display: flex;
+    color: #221f1f;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    text-decoration: none;
+}
+.page-list__link:hover{
+    color: #ec1e79;
+}
+.page-list__item_active .page-list__link{
+    color: #ec1e79;
+    background-color: #27273e;
+}

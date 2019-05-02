@@ -1,6 +1,9 @@
 .content{
     margin-top: 40px;
 }
+.content_main{
+    margin-top: 80px;
+}
 .content__right{
     width: 83.1%;
 }
